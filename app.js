@@ -20,7 +20,7 @@ app.use(express.static(`${__dirname}/public`));
 //index route
 app.get('/', (req, res) => {
     res.render('index', {
-        stripePublishableKey: pk_test_axNq5LTsIJIZMPAlA6enqySi
+        stripePublishableKey: keys.stripePublishableKey
     });
 });
 
